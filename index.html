@@ -4,13 +4,619 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>LITHO</title>
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="css/col.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <section id="hero">
+        <header class="site-header">
+            <div class="fluid-container">
+                <div class="row middle between">
+                    <div class="site-header__logo">
+                        <a class="site-header__link" href="#">
+                            <img class="site-header__img" src="https://litho.themezaa.com/wp-content/uploads/2021/01/logo-parrot-green@2x.png" alt="litho logo" width="111" height="36">
+                        </a>
+                    </div>
+                    <div class="site-header__wrapper row middle">
+                        <div class="site-header__phone-box phone-box">
+                            <a class="phone-box__link" href="tel:+441234567890">
+                                Call us +44 123 456 7890
+                            </a>
+                        </div>
+                        <div class="site-header__btn-box" id="headerBtn">
+                            <span class="site-header__btn"></span>
+                            <span class="site-header__btn"></span>
+                            <span class="site-header__btn"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-modal row" id="headerModal">
+                <div class="x" id="xBtn">
+                    <i class='bx bx-x'></i>
+                </div>
+                <div class="header-modal__img-box col-6">
+                    <img class="header-modal__img" src="images/architecture-menu-img.jpg" alt="header-modal">
+                </div>
+                <div class="header-modal__content col-6">
+                    <nav class="header-modal__nav modal-nav">
+                        <ul class="modal-nav__list">
+                            <li class="modal-nav__item">
+                                <a href="#" class="modal-nav__link">
+                                    home
+                                </a>
+                            </li>
+                            <li class="modal-nav__item">
+                                <a href="#" class="modal-nav__link">
+                                    about
+                                </a>
+                            </li>
+                            <li class="modal-nav__item">
+                                <a href="#" class="modal-nav__link">
+                                    services
+                                </a>
+                            </li>
+                            <li class="modal-nav__item">
+                                <a href="#" class="modal-nav__link">
+                                    portfolio
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <ul class="social">
+                        <li class="social__item">
+                            <a href="#" class="social__link">
+                                <i class='bx bxl-facebook'></i>
+                                facebook
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#" class="social__link">
+                                <i class='bx bxl-twitter'></i>
+                                twitter
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#" class="social__link">
+                                <i class='bx bxl-instagram'></i>
+                                instagram
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <!-- SITE-HEADER END -->
+        <!-- HERO-INTRO START -->
+
+        <div class="site-intro">
+            <div class="fluid-container">
+                <div class="hero-intro__bg-img-wrapper">
+                    <div class="hero-intro__content row middle">
+                        <div class="hero-intro__num-wrapper">
+                            <span class="hero-intro__num">
+                                01
+                            </span>
+                        </div>
+                        <div class="hero-intro__desc">
+                            <div class="hero-intro__bg-container"></div>
+                                <h2 class="hero-intro__title">
+                                    De wendell <br> burnette
+                                </h2>
+                                <a class="hero-intro__link" href="#">
+                                    explore project
+                                </a>
+                        </div>
+                    </div>
+                    <div class="site-intro__btn-box">
+                        <div class="site-intro__btn">
+                            <i class='bx bx-right-arrow-alt'></i>
+                        </div>
+                        <div class="site-intro__btn">
+                            <i class='bx bx-left-arrow-alt'></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- HERO END -->
+    <!-- EXPERIENCE START -->
+
+    <section id="experience">
+        <div class="container">
+            <div class="experience-wrapper row middle">
+                <div class="experience__num-box row middle">
+                     <div class="experience__num">
+                        28
+                     </div>
+                     <div class="experience__desc">
+                        <p class="experince__text">
+                            Years experience working
+                        </p>
+                     </div>
+                </div>
+                <div class="since col-3">
+                    <span>
+                        SINCE 1992 
+                    </span>
+                    <p class="since__desc">
+                        An architectural <br> company based <br> in United <br> kingdom
+                    </p>
+                </div>
+                <div class="about col-5">
+                    <p class="about__text">
+                        Lorem ipsum is simply dummy text of the printing <br> and typesetting industry. Lorem ipsum has been <br> standard dummy text ever since ipsum been the <br> industry lorem ipsum has been lorem ipsums <br> dolor.
+                    </p>
+                    <a class="about__link" href="#">
+                        about company
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERIENCE END -->
+    <!-- CARDS START -->
+
+    <section id="cards">
+        <div class="fluid-container">
+            <ul class="cards__list row">
+                <li class="cards__item">
+                    <div class="cards__img-box">
+                        <div class="img-box">
+                            <img src="images/architecture-img-10.jpg.webp" alt="cards" height="100%" width="100%">
+                        </div>
+                        <h6 class="cards__title">
+                            Architecture design
+                        </h6>
+                        <button class="cards__btn">
+                            <i class='bx bx-right-arrow-alt'></i>
+                        </button>
+                        <div class="cards-hidden">
+                            <p class="cards-hidden__text">
+                                Lorem ipsum is <br> simply dummy text of <br> the printing and <br> typesetting.
+                            </p>
+                            <a class="cards-hidden__link row middle" href="#">
+                                see portfolio
+                                <i class='bx bx-right-arrow-alt'></i>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li class="cards__item">
+                    <div class="cards__img-box">
+                        <div class="img-box">
+                            <img src="images/architecture-img-11.jpg.webp" alt="cards" height="100%" width="100%">
+                        </div>
+                        <h6 class="cards__title">
+                            Architecture design
+                        </h6>
+                        <button class="cards__btn">
+                            <i class='bx bx-right-arrow-alt'></i>
+                        </button>
+                        <div class="cards-hidden">
+                            <p class="cards-hidden__text">
+                                Lorem ipsum is <br> simply dummy text of <br> the printing and <br> typesetting.
+                            </p>
+                            <a class="cards-hidden__link row middle" href="#">
+                                see portfolio
+                                <i class='bx bx-right-arrow-alt'></i>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li class="cards__item">
+                    <div class="cards__img-box">
+                        <div class="img-box">
+                            <img src="images/architecture-img-12.jpg.webp" alt="cards" height="100%" width="100%">
+                        </div>
+                        <h6 class="cards__title">
+                            Architecture design
+                        </h6>
+                        <button class="cards__btn">
+                            <i class='bx bx-right-arrow-alt'></i>
+                        </button>
+                        <div class="cards-hidden">
+                            <p class="cards-hidden__text">
+                                Lorem ipsum is <br> simply dummy text of <br> the printing and <br> typesetting.
+                            </p>
+                            <a class="cards-hidden__link row middle" href="#">
+                                see portfolio
+                                <i class='bx bx-right-arrow-alt'></i>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li class="cards__item">
+                    <div class="cards__img-box">
+                        <div class="img-box">
+                            <img src="images/architecture-img-13.jpg.webp" alt="cards" height="100%" width="100%">
+                        </div>
+                        <h6 class="cards__title">
+                            Architecture design
+                        </h6>
+                        <button class="cards__btn">
+                            <i class='bx bx-right-arrow-alt'></i>
+                        </button>
+                        <div class="cards-hidden">
+                            <p class="cards-hidden__text">
+                                Lorem ipsum is <br> simply dummy text of <br> the printing and <br> typesetting.
+                            </p>
+                            <a class="cards-hidden__link row middle" href="#">
+                                see portfolio
+                                <i class='bx bx-right-arrow-alt'></i>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- CARDS END -->
+    <!-- OWNER START -->
+
+    <section id="owner">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <p class="owner_desc">
+                        We are passionate knowing that <br> people work, play and inhabit the <br> spaces and places.
+                    </p>
+                </div>
+                <div class="col-6 row">
+                    <div class="col-6">
+                        <h6 class="owner__title">
+                            OWNER MANAGED
+                        </h6>
+                        <p class="owner__text">
+                            Lorem ipsum is simply dummy <br> text of the printing and lorem <br> ipsum has been.
+                        </p>
+                    </div>
+                    <div class="col-6">
+                        <h6 class="owner__title">
+                            OWNER MANAGED
+                        </h6>
+                        <p class="owner__text">
+                            Lorem ipsum is simply dummy <br> text of the printing and lorem <br> ipsum has been.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- OWNER END -->
+    <!-- VIDEO START -->
+
+    <section id="video">
+        <div class="fluid-container">
+            <div class="video-container">
+                <a href="https://youtu.be/67PstLDYXGI" class="video__btn">
+                    <i class='bx bx-play'></i>
+                    <span class="video__span"></span>
+                </a>
+                <div class="video__content">
+                    <h4 class="video__title">
+                        We are the leader in <br> the 
+                        <span>
+                            architectural
+                        </span>
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- VIDEO END -->
+    <!-- HELPERS START -->
+
+    <section id="helpers">
+        <div class="container-helpers">
+            <ul class="helpers__list row middle between">
+                <li class="helpers__item">
+                    <a class="helpers__link" href="#">
+                        <img src="https://litho.themezaa.com/wp-content/uploads/2021/01/company-logo-40.png" alt="forecast" width="232" height="110">
+                    </a>
+                </li>
+                <li class="helpers__item">
+                    <a class="helpers__link" href="#">
+                        <img src="https://litho.themezaa.com/wp-content/uploads/2021/01/company-logo-41.png" alt="growtify" width="232" height="110">
+                    </a>
+                </li>
+                <li class="helpers__item">
+                    <a class="helpers__link" href="#">
+                        <img src="https://litho.themezaa.com/wp-content/uploads/2021/01/company-logo-42.png" alt="techbox" width="232" height="110">
+                    </a>
+                </li>
+                <li class="helpers__item">
+                    <a class="helpers__link" href="#">
+                        <img src="https://litho.themezaa.com/wp-content/uploads/2021/01/company-logo-43.png" alt="smarthouse" width="232" height="110">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- HERLPERS END -->
+    <!-- WORK START -->
+
+    <section id="work">
+        <div class="fluid-container">
+            <div class="work-wrapper">
+                <div class="line"></div>
+                <div class="work__title">
+                    selected work
+                </div>
+            </div>
+            <ul class="work__list row">
+                <li class="work__item">
+                    <div class="work__up">
+                        <div class="work__img">
+                            <div class="work-yellow">
+
+                            </div>
+                            <img src="/images/architecture-img-16.jpg.webp" alt="leana">
+                        </div>
+                        <button class="work__btn">
+                            <i class='bx bx-right-arrow-alt'></i>
+                        </button>
+                        <div class="work__desc">
+                            <a class="work__link" href="#">
+                                <span>
+                                    Cultural centre
+                                </span>
+                                <span>
+                                    Landscape
+                                </span>
+                            </a>                    
+                        </div>
+                    </div>
+                </li>
+                <li class="work__item">
+                    <div class="work__up">
+                        <div class="work__img">
+                            <div class="work-yellow">
+
+                            </div>
+                            <img src="/images/architecture-img-17.jpg.webp" alt="leana">
+                        </div>
+                        <button class="work__btn">
+                            <i class='bx bx-right-arrow-alt'></i>
+                        </button>
+                        <div class="work__desc">
+                            <a class="work__link" href="#">
+                                <span>
+                                    Aliquam gravida
+                                </span>
+                                <span>
+                                    Architecture
+                                </span>
+                            </a>                    
+                        </div>
+                    </div>
+                </li>
+                <li class="work__item">
+                    <div class="work__up">
+                        <div class="work__img">
+                            <div class="work-yellow">
+
+                            </div>
+                            <img src="/images/architecture-img-18.jpg.webp" alt="leana">
+                        </div>
+                        <button class="work__btn">
+                            <i class='bx bx-right-arrow-alt'></i>
+                        </button>
+                        <div class="work__desc">
+                            <a class="work__link" href="#">
+                                <span>
+                                    Fringila auctor
+                                </span>
+                                <span>
+                                    Interior
+                                </span>
+                            </a>                    
+                        </div>
+                    </div>
+                </li>
+                <li class="work__item">
+                    <div class="work__up">
+                        <div class="work__img">
+                            <div class="work-yellow">
+
+                            </div>
+                            <img src="/images/architecture-img-19.jpg.webp" alt="leana">
+                        </div>
+                        <button class="work__btn">
+                            <i class='bx bx-right-arrow-alt'></i>
+                        </button>
+                        <div class="work__desc">
+                            <a class="work__link" href="#">
+                                <span>
+                                    Leana cagnotto
+                                </span>
+                                <span>
+                                    Architecture
+                                </span>
+                            </a>                    
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- WORK END -->
+    <!-- MAP START -->
+
+    <section id="map">
+        <div class="fluid-container">
+            <div class="map-wrapper row">
+                <div class="map__hidden">
+                    world
+                </div>
+                <div class="map__img-box">
+                    <img src="images/architecture-img-15.png" alt="map" width="451" height="254">
+                </div>
+                <div class="map__content">
+                    <h3 class="map__title">
+                        We have offices all around the world
+                    </h3>
+                    <p class="map__text">
+                        Lorem ipsum is simply dummy text of the and typesetting industry lorem ipsum industry’s standard text.
+                    </p>
+                    <a class="map__link" href="#">
+                        get in touch
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MAP END -->
+    <!-- BLOG START -->
+
+    <section id="blog">
+        <div class="fluid-container">
+            <div class="blog__wrapper">
+                <div class="line"></div>
+                <div class="blog__title">
+                    latest blog
+                </div>
+            </div>
+            <ul class="blog__list row">
+                <li class="blog__item">
+                    <div class="blog__img-box">
+                        <img src="/images/architecture-img-28.jpg.webp" alt="disk">
+                    </div>
+                    <div class="blog__content">
+                        <a href="#" class="blog__btn">
+                            creative
+                        </a>
+                        <span class="blog__time">
+                            12 february 2021
+                        </span> 
+                        <a href="#" class="blog__item-title">
+                            Bad design is smoke, while good design is a mirror
+                        </a>
+                    </div>
+                </li>
+                <li class="blog__item">
+                    <div class="blog__img-box">
+                        <img src="/images/architecture-img-25.jpg.webp" alt="disk">
+                    </div>
+                    <div class="blog__content">
+                        <a href="#" class="blog__btn">
+                            creative
+                        </a>
+                        <span class="blog__time">
+                            12 february 2021
+                        </span> 
+                        <a href="#" class="blog__item-title">
+                            Bad design is smoke, while good design is a mirror
+                        </a>
+                    </div>
+                </li>
+                <li class="blog__item">
+                    <div class="blog__img-box">
+                        <img src="/images/architecture-img-26.jpg.webp" alt="disk">
+                    </div>
+                    <div class="blog__content">
+                        <a href="#" class="blog__btn">
+                            creative
+                        </a>
+                        <span class="blog__time">
+                            12 february 2021
+                        </span> 
+                        <a href="#" class="blog__item-title">
+                            Bad design is smoke, while good design is a mirror
+                        </a>
+                    </div>
+                </li>
+                <li class="blog__item">
+                    <div class="blog__img-box">
+                        <img src="/images/architecture-img-27.jpg.webp" alt="disk">
+                    </div>
+                    <div class="blog__content">
+                        <a href="#" class="blog__btn">
+                            creative
+                        </a>
+                        <span class="blog__time">
+                            12 february 2021
+                        </span> 
+                        <a href="#" class="blog__item-title">
+                            Bad design is smoke, while good design is a mirror
+                        </a>
+                    </div>
+                </li>
+            </ul>
+            <div class="project">
+                <p class="project__text">
+                    ARE YOU READY TO WORK WITH US? 
+                    <span class="project__span">
+                        <a href="#">
+                            START A PROJECT
+                        </a>
+                    </span>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- BLOG END -->
+    <!-- FOOTER START -->
+
+    <div class="fluid-container">
+        <footer class="site-footer">
+            <div class="row middle">
+                <div class="site-footer__logo">
+                    <a class="site-footer__link" href="#">
+                        <img src="https://litho.themezaa.com/wp-content/uploads/2021/01/logo-parrot-green@2x.png" alt="site-logo" width="111" height="36">
+                    </a>
+                </div>
+                <div class="site-footer__text">
+                    +1 234 567 8910 • 27 EDEN WALK EDEN CENTRE, PARIS, <br>
+                    FRANCE • 
+                    <a class="email" href="#">INFO@YOURDOMAIN.COM</a>
+                </div>
+                <ul class="site-footer__social row middle">
+                    <li class="site-footer__item">
+                        <a href="#" class="site-footer__link">
+                            <i class='bx bxl-facebook'></i>
+                        </a>
+                    </li>
+                    <li class="site-footer__item">
+                        <a href="#" class="site-footer__link">
+                            <i class='bx bxl-dribbble'></i>
+                        </a>
+                    </li>
+                    <li class="site-footer__item">
+                        <a href="#" class="site-footer__link">
+                            <i class='bx bxl-twitter'></i>
+                        </a>
+                    </li>
+                    <li class="site-footer__item">
+                        <a href="#" class="site-footer__link">
+                            <i class='bx bxl-instagram'></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+
+    <!-- SITE-FOOTER END -->
+    <!-- SCROLL-UP START -->
+
+    <a class="fixed-up" href="#"><i class='bx bx-up-arrow-alt'></i></a>
+
+    <script src="js/main.js"></script>
+
 </body>
 </html>
